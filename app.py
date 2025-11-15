@@ -48,8 +48,11 @@ Analiza el siguiente contenido y crea tarjetas de estudio siguiendo estas reglas
 3. Enfócate en conceptos clave, definiciones, fechas importantes, relaciones y aplicaciones
 4. Crea entre 10-25 tarjetas dependiendo de la extensión del contenido
 5. Varía el tipo de preguntas: definiciones, comparaciones, aplicaciones, ejemplos
-6. Si hay diagramas o imágenes, crea preguntas sobre ellos
-7. Usa un formato simple: PREGUNTA|||RESPUESTA (separado por tres barras verticales |||)
+6. Si hay diagramas o imágenes, crea preguntas sobre ellos, pero sin hacer referencia a las imagenes o diagramas, solo usar su contenido.
+7. Las preguntas y respuestas siempre debe evaluar una sola idea ( Atomicidad)
+8. Para conceptos abstractos, crea una imagen mental con una palabra clave. No necesitas insertar imágenes (ralentiza repaso), solo evocarlas. Ejemplo: "Imagina un CALEidoscopio para recordar que la **CALEfacción global altera patrones climáticos".
+9. Solo si es necesario y en las respuestas hace falta, añadir listas o negritas, PERO usar el formato del leguaje HTML
+8. Usa un formato simple: PREGUNTA|||RESPUESTA (separado por tres barras verticales |||)
 
 IMPORTANTE PARA FÓRMULAS Y ECUACIONES (Matemáticas, Física, Química):
 - Para matemáticas EN LÍNEA usa: \\( formula \\)
@@ -73,7 +76,7 @@ Ejemplos de formato correcto:
 ¿Cuál es la fórmula de Einstein?|||\\(E = mc^2\\) donde E es energía, m es masa y c es la velocidad de la luz
 ¿Cómo se escribe agua en química?|||\\(H_2O\\) - dos átomos de hidrógeno y uno de oxígeno
 ¿Cuál es la segunda ley de Newton?|||\\[F = ma\\] donde F es fuerza, m es masa y a es aceleración
-"""
+¿Cuáles son los eventos históricos más importantes del Perú?|||<html><p>Los eventos más importantes de la historia del Perú son:</p><ul><li><bImperio Inca (1438)</b>: Consolidación del Tawantinsuyo bajo Pachacútec.</li><li><b>Conquista española (1532)</b>: Captura de Atahualpa por Francisco Pizarro.</li><li><b>Fundación de Lima (1535)</b>: Capital del Virreinato del Perú.</li><li><b>Independencia (1821)</b>: Proclamada por José de San Martín en Lima.</li><li><b>Batalla de Ayacucho (1824)</b>: Aseguró la independencia definitiva.</li><li><b>Guerra del Pacífico (1879–1883)</b>: Perú y Bolivia contra Chile, con pérdida territorial.</li><li><b>Reforma agraria (1968–1975)</b>: Durante el gobierno de Juan Velasco Alvarado.</li><li><b>Conflicto interno (1980–2000)</b>: Enfrentamiento con Sendero Luminoso y el MRTA.</li><li><b>Caída del régimen de Fujimori (2000)</b>: Fin de una década marcada por autoritarismo y corrupción.</li></ul></html>"""
 
 def obtener_modelo_disponible():
     """Intenta obtener el mejor modelo de Gemini disponible"""
