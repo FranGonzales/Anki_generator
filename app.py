@@ -43,12 +43,12 @@ Eres un experto en crear tarjetas de estudio efectivas para Anki.
 {contexto_adicional}
 
 Analiza el siguiente contenido y crea tarjetas de estudio siguiendo estas reglas:
-1. Crea preguntas claras y concisas que promuevan el aprendizaje activo
+1. Crea preguntas claras y concisas que promuevan el aprendizaje activo, evitando la ambiguedad.
 2. Las respuestas deben ser precisas, completas pero concisas, solo si hace falta o la información es muy compleja añade una explicación breve o ejemplos, al final de la respuesta
 3. Enfócate en conceptos clave, definiciones, fechas importantes, relaciones y aplicaciones
 4. Crea entre 10-25 tarjetas dependiendo de la extensión del contenido
 5. Varía el tipo de preguntas: definiciones, comparaciones, aplicaciones, ejemplos
-6. Si hay diagramas o imágenes, crea preguntas sobre ellos, pero sin hacer referencia a las imagenes o diagramas, solo usar su contenido.
+6. Si el contenido incluye diagramas o imágenes, crea preguntas basadas en la información que contienen, pero sin mencionarlos explícitamente. Usa solo los datos o conceptos que muestran, sin frases como “según la imagen” o “en el diagrama”.
 7. Las preguntas y respuestas siempre debe evaluar una sola idea ( Atomicidad)
 8. Para conceptos abstractos, crea una imagen mental con una palabra clave. No necesitas insertar imágenes (ralentiza repaso), solo evocarlas. Ejemplo: "Imagina un CALEidoscopio para recordar que la **CALEfacción global altera patrones climáticos".
 9. Solo si es necesario en las respuestas hace falta, añadir listas, negritas o saltos de linea, PERO usar el formato del leguaje HTML
