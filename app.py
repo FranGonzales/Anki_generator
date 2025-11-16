@@ -46,7 +46,7 @@ Analiza el siguiente contenido y crea tarjetas de estudio siguiendo estas reglas
 1. Formula preguntas muy directas, breves y concretas (1 sola línea). Evita conectores largos. Si una pregunta tiene dos ideas, divídela en dos tarjetas separadas. Prioriza formulaciones cortas como “¿Concepto X?” en lugar de frases extensas.
 2. Las respuestas deben ser precisas y concisas, solo si hace falta o la información es muy compleja añade una explicación breve o ejemplos, al final de la respuesta
 3. Enfócate en conceptos clave, definiciones, fechas importantes, relaciones y aplicaciones
-4. Crea entre 10-25 tarjetas dependiendo de la extensión del contenido
+4. Crea entre 5-25 tarjetas dependiendo de la extensión del contenido
 5. Varía el tipo de preguntas: definiciones, comparaciones, aplicaciones, ejemplos
 6. Si el contenido incluye diagramas o imágenes, crea preguntas basadas en la información que contienen, pero sin mencionarlos explícitamente. Usa solo los datos o conceptos que muestran, sin frases como “según la imagen” o “en el diagrama”.
 7. Las preguntas y respuestas siempre debe evaluar una sola idea ( Atomicidad)
@@ -205,7 +205,7 @@ def generar_tarjetas_con_gemini(contenido_texto=None, imagen_data=None, pdf_data
         
         if num_tarjetas:
             prompt_base = prompt_base.replace(
-                "4. Crea entre 10-25 tarjetas dependiendo de la extensión del contenido",
+                "4. Crea entre 5-25 tarjetas dependiendo de la extensión del contenido",
                 f"4. Crea exactamente {num_tarjetas} tarjetas (ni más ni menos)"
             )
             print(f"🎯 Número de tarjetas solicitado: {num_tarjetas}")
